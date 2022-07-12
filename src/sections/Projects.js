@@ -52,7 +52,7 @@ function Projects() {
           projectType='Web Development'
           title='Personal Portfolio Webpage'
           linkName='Repository'
-          link='https://www.example.com'
+          link='https://github.com/g-erm/portfolio-website'
           relatedSkills='HTML, CSS, JS, React'
           desc='This current webpage you are seeing is my first web development project I
           have embarked on! I am slowly updating and improving on it as I gain more experience from here.'

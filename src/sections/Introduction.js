@@ -60,7 +60,7 @@ function Introduction() {
             textAlign: ['center', null, 'left'],
           }}
         >
-          I have experience in full stack software engineering, front-end development and UIUX design.
+          I have experience in full stack software engineering, UX development and UIUX design.
           <br/> In my free time, I like to play with my cats and crochet things!
         </Typography>
       </Box>
