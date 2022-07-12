@@ -1,24 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+import { Box } from '@mui/material';
+import Introduction from './sections/Introduction';
+import Skills from './sections/Skills';
+import Experiences from './sections/Experiences';
+import Projects from './sections/Projects';
+import Contacts from './sections/Contacts';
+import ResponsiveAppBar from './sections/AppBar.tsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Box 
+        sx={{
+          margin: 'auto',
+          width: 1200,
+          maxWidth: '100%',
+        }}
+      >
+        <ResponsiveAppBar />
+        <Introduction />
+        <Skills />
+        <Experiences />
+        <Projects />
+        <Contacts />
+      </Box>
+    </BrowserRouter>
+    
   );
 }
 

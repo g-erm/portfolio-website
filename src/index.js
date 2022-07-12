@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import '@fontsource/krub/700.css'; //bold
+import '@fontsource/krub/600.css'; //semibold
+import '@fontsource/krub/500.css'; //medium
+import '@fontsource/krub/400.css'; //regular
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>
 );
 
