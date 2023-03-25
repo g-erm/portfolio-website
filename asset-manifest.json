@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.fbdac9a2.css",
-    "main.js": "/portfolio-website/static/js/main.9709ee40.js",
+    "main.js": "/portfolio-website/static/js/main.c84722b5.js",
     "static/js/787.749b4a44.chunk.js": "/portfolio-website/static/js/787.749b4a44.chunk.js",
     "static/media/dsta.PNG": "/portfolio-website/static/media/dsta.43575370cb3d7a2d4f40.PNG",
     "static/media/contactapp.PNG": "/portfolio-website/static/media/contactapp.a353db3e8c1c476b220b.PNG",
@@ -39,11 +39,11 @@
     "static/media/krub-vietnamese-400-normal.woff2": "/portfolio-website/static/media/krub-vietnamese-400-normal.6d2fa5cb42a8c9eac82e.woff2",
     "index.html": "/portfolio-website/index.html",
     "main.fbdac9a2.css.map": "/portfolio-website/static/css/main.fbdac9a2.css.map",
-    "main.9709ee40.js.map": "/portfolio-website/static/js/main.9709ee40.js.map",
+    "main.c84722b5.js.map": "/portfolio-website/static/js/main.c84722b5.js.map",
     "787.749b4a44.chunk.js.map": "/portfolio-website/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fbdac9a2.css",
-    "static/js/main.9709ee40.js"
+    "static/js/main.c84722b5.js"
   ]
 }
