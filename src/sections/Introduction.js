@@ -49,7 +49,7 @@ function Introduction() {
             textAlign: ['center', null, 'left'],
           }}
         >
-          I am a final year Computer Science undergraduate with an interest in front-end development and UIUX.
+          I am a developer with a strong interest in UIUX and I am passionate in making products that work for users.
         </Typography>
         <Typography 
           sx={{
@@ -60,8 +60,8 @@ function Introduction() {
             textAlign: ['center', null, 'left'],
           }}
         >
-          I have experience in full stack software engineering, UX development and UIUX design.
-          <br/> In my free time, I like to play with my cats and crochet things!
+          I enjoy participating in the design process to understand and contribute to how products are built with the user in mind.
+          <br/> I have experience in UX development, UIUX design and full stack software engineering.
         </Typography>
       </Box>
     </Grid>

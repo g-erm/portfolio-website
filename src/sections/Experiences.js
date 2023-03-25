@@ -6,7 +6,6 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import WorkOutlineSharpIcon from '@mui/icons-material/WorkOutlineSharp';
-import MenuBookSharpIcon from '@mui/icons-material/MenuBookSharp';
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 import { Box, Typography } from '@mui/material';
 
@@ -49,7 +48,53 @@ function Experiences() {
             >
               <WorkOutlineSharpIcon
                 sx={{
-                  fontSize: [20, 50, 50],
+                  fontSize: [20, 40, 40],
+                  color: '#FFF7EE',
+                }}
+              />
+            </TimelineDot>
+            <TimelineConnector sx={{ width: [3, 6, 6], backgroundColor: '#072B19' }} />
+          </TimelineSeparator>
+          <TimelineContent>
+            <Typography 
+              sx={{
+                fontFamily: 'Krub',
+                fontWeight: 500,
+                fontSize: [12, 24, 24],
+                color: '#412300',
+                my: 2,
+              }}
+            >
+              Associate UX Developer <br/> at Indeed.com
+            </Typography>
+            <Typography 
+              sx={{
+                fontFamily: 'Krub',
+                fontWeight: 400,
+                fontSize: [10, 20, 20],
+                color: '#412300',
+              }}
+            >
+              Feb 2023 - Mar 2023 <br />
+              Job Seeker Content - Company Pages <br />
+              Improved the webpage's front-end performance by reducing bundle size by removing unnecessary packages. <br />
+              Implement UI experiments supporting UX initiatives on making informed, user-centric changes to the product. <br />
+              Worked closely with other UX functions like designers and researchers to develop user-centric products and initiatives. <br />
+            </Typography>
+          </TimelineContent>
+        </TimelineItem>
+
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineDot
+              sx={{
+                backgroundColor: '#072B19',
+                padding: [1, 3, 3],
+              }}
+            >
+              <WorkOutlineSharpIcon
+                sx={{
+                  fontSize: [20, 40, 40],
                   color: '#FFF7EE',
                 }}
               />
@@ -76,53 +121,11 @@ function Experiences() {
                 color: '#412300',
               }}
             >
-              May 2022 - July 2022 <br />
+              May 2022 - Jul 2022 <br />
+              Job Seeker Content - Education Team <br />
+              Interned for both Design and Development roles with responsibilities split between the two disciplines <br />
               Develop accessible and reusable frontend React components <br />
-              Create high-fidelity Figma designs that define the user experience
-              and user interface
-            </Typography>
-          </TimelineContent>
-        </TimelineItem>
-
-        <TimelineItem>
-          <TimelineSeparator>
-            <TimelineDot
-              sx={{
-                backgroundColor: '#072B19',
-                padding: [1, 3, 3],
-              }}
-            >
-              <MenuBookSharpIcon
-                sx={{
-                  fontSize: [20, 50, 50],
-                  color: '#FFF7EE',
-                }}
-              />
-            </TimelineDot>
-            <TimelineConnector sx={{ width: [3, 6, 6], backgroundColor: '#072B19' }} />
-          </TimelineSeparator>
-          <TimelineContent>
-            <Typography 
-              sx={{
-                fontFamily: 'Krub',
-                fontWeight: 500,
-                fontSize: [12, 24, 24],
-                color: '#412300',
-                my: 2,
-              }}
-            >
-              Undergraduate Teaching Assistant <br/> at NUS School of Computing
-            </Typography>
-            <Typography 
-              sx={{
-                fontFamily: 'Krub',
-                fontWeight: 400,
-                fontSize: [10, 20, 20],
-                color: '#412300',
-              }}
-            >
-              August 2021 - May 2022 <br/>
-              Facilitate lab sessions for the module CS2100 Computer Organisation
+              Create high-fidelity Figma designs that define the user experience and user interface
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -137,7 +140,7 @@ function Experiences() {
             >
               <WorkOutlineSharpIcon
                 sx={{
-                  fontSize: [20, 50, 50],
+                  fontSize: [20, 40, 40],
                   color: '#FFF7EE',
                 }}
               />
@@ -164,7 +167,7 @@ function Experiences() {
                 color: '#412300',
               }}
             >
-              May 2021 - August 2021 <br />
+              May 2021 - Aug 2021 <br />
               Frontend development in React and backend development in Django<br/>
               Assist with development of new features as well as updating of existing dashboards<br/>
               Involved in the UI designing for new features using Figma
@@ -182,7 +185,7 @@ function Experiences() {
             >
               <SchoolOutlinedIcon
                 sx={{
-                  fontSize: [20, 50, 50],
+                  fontSize: [20, 40, 40],
                   color: '#FFF7EE',
                 }}
               />
@@ -208,9 +211,9 @@ function Experiences() {
                 color: '#412300',
               }}
             >
-              Expected Graduation: Summer 2023 <br />
-              Pursuing a Bachelor's Degree in Computing (Computer Science)
-              with focus area in Games and Graphics
+              Graduated Jan 2023 <br />
+              Bachelor of Computing (Computer Science) with Honours (Distinction) <br />
+              Computer Games and Graphics Focus Area (Distinction)
             </Typography>
           </TimelineContent>
         </TimelineItem>

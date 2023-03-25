@@ -38,14 +38,6 @@ function Skills() {
           justifyContent: 'space-between',
         }}
       >
-        <SkillCard title="Programming languages">
-          <Thumbnail src={java} alt="Java" />
-          <Thumbnail src={js} alt="Javascript" />
-          <Thumbnail src={c} alt="C" />
-          <Thumbnail src={cpp} alt="C++" />
-          <Thumbnail src={csharp} alt="C sharp" />
-        </SkillCard>
-        
         <SkillCard title="Front-end development">
           <Thumbnail src={react} alt="React" />
           <Thumbnail src={figma} alt="Figma" />
@@ -59,6 +51,13 @@ function Skills() {
           <Thumbnail src={gitlab} alt="Git Lab" />
         </SkillCard>
         
+        <SkillCard title="Programming languages">
+          <Thumbnail src={java} alt="Java" />
+          <Thumbnail src={js} alt="Javascript" />
+          <Thumbnail src={c} alt="C" />
+          <Thumbnail src={cpp} alt="C++" />
+          <Thumbnail src={csharp} alt="C sharp" />
+        </SkillCard>
       </Grid>
     </Box>
   )
